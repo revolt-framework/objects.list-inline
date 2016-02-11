@@ -1,0 +1,30 @@
+//
+// REVOLT!
+// OBJECTS.LIST-INLINE
+//
+// The list-inline object simply displays a list of items in one line.
+//
+
+
+
+// Predefine the variables below to alter and enable specific features.
+
+$revo-list-inline-namespace:    $revo-objects-namespace !default;
+
+
+
+.#{$revo-list-inline-namespace}list-inline,
+%#{$revo-list-inline-namespace}list-inline {
+    margin-left:  0;
+    padding: 0;
+    list-style: none;
+
+    > li {
+        display: inline-block;
+    }
+
+    [dir=rtl] & {
+        margin-right: 0;
+    }
+
+}

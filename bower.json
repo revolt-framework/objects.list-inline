@@ -1,0 +1,22 @@
+{
+  "name": "revolt.objects.list-inline",
+  "homepage": "https://github.com/revolt-framework/objects.list-inline",
+  "authors": [
+    {
+      "name": "Ruven Pelka",
+      "email": "ruven.pelka@gmail.com",
+      "homepage": "http://ruvenpelka.com"
+    }
+  ],
+  "description": "Revolt framework module to display a list of items in one line.",
+  "main": "_objects.list-inline.scss",
+  "keywords": [
+    "revolt",
+    "oocss",
+    "css"
+  ],
+  "dependencies": {
+    "revolt.settings.defaults": "0.x.x"
+  },
+  "license": "MIT"
+}
